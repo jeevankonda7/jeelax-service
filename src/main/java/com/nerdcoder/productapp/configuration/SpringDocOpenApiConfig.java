@@ -17,10 +17,10 @@ public class SpringDocOpenApiConfig {
             .info(new Info()
                     .title("Product Inventory APIs")
                     .description("by Jeevan")
-            )
-            .servers(List.of(
-                    new Server().url("http:localhost:3125").description("local"),
-                    new Server().url("http:localhost:3124").description("deployed")
-            ));
+            );
+//            .servers(List.of(
+//                    new Server().url("http:localhost:3125").description("local"),
+//                    new Server().url("http:localhost:3124").description("deployed")
+//            ));
   }
 }

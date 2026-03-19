@@ -3,19 +3,24 @@ package com.nerdcoder.productapp.service;
 import com.nerdcoder.productapp.entity.ProductDetails;
 import com.nerdcoder.productapp.repository.ProductRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.Optional;
+import java.util.Set;
 
 @Service
 public class ProductServiceImpl implements ProductService{
 
   private final ProductRepository productRepository;
+  private final FileProcessingService fileProcessingService;
 
   private static String productId = null;
 
 
-  public ProductServiceImpl(ProductRepository productRepository) {
+  public ProductServiceImpl(ProductRepository productRepository, FileProcessingService fileProcessingService) {
     this.productRepository = productRepository;
+    this.fileProcessingService = fileProcessingService;
   }
 
   @Override
@@ -60,6 +65,12 @@ public class ProductServiceImpl implements ProductService{
   @Override
   public Integer fetchMaxIdOfProducts() {
     return null;
+  }
+
+  public Integer addMultipleProducts(MultipartFile file) throws Exception {
+    Set<ProductDetails> products = this.fileProcessingService.parseCsv(file);
+    this.productRepository.saveAll(products);
+    return products.size();
   }
 
 

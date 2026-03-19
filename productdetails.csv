@@ -1,0 +1,3 @@
+productId, productName, productPrice, productManufacturer
+PROD-001, Washing Machine, 42000.00, Samsung
+PROD-002, Camera, 69000.00, Canon
