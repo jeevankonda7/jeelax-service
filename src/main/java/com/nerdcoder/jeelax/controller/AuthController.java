@@ -1,6 +1,8 @@
 package com.nerdcoder.jeelax.controller;
 
+import com.nerdcoder.jeelax.entity.UserRegistration;
 import com.nerdcoder.jeelax.model.AuthRequest;
+import com.nerdcoder.jeelax.service.UsersCheckInService;
 import com.nerdcoder.jeelax.utils.JwtUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,11 +19,14 @@ public class AuthController {
 
   private final AuthenticationManager authenticationManager;
   private final JwtUtil jwtUtil;
+  private final UsersCheckInService usersCheckInService;
 
   public AuthController(AuthenticationManager authenticationManager,
-                        JwtUtil jwtUtil) {
+                        JwtUtil jwtUtil,
+                        UsersCheckInService usersCheckInService) {
     this.authenticationManager = authenticationManager;
     this.jwtUtil = jwtUtil;
+    this.usersCheckInService = usersCheckInService;
   }
 
   @PostMapping(value = "/login", consumes = MediaType.APPLICATION_JSON_VALUE)
@@ -35,6 +40,12 @@ public class AuthController {
     } catch (Exception e) {
       return e.getMessage();
     }
+  }
+
+
+  @PostMapping(value = "/signUp", consumes = MediaType.APPLICATION_JSON_VALUE)
+  public String approveSignup(@RequestBody final UserRegistration userRegistrationDetails) {
+   return this.usersCheckInService.addUser(userRegistrationDetails);
   }
 
   @GetMapping("/securitycheck")
