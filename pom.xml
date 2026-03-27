@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nerdcoder</groupId>
-	<artifactId>jeelax-app</artifactId>
+	<artifactId>product-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jeelax-app</name>
+	<name>product-app</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

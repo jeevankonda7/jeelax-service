@@ -1,3 +1,101 @@
 productId, productName, productPrice, productManufacturer
 PROD-001, Washing Machine, 42000.00, Samsung
 PROD-002, Camera, 69000.00, Canon
+PROD-003, Refrigerator, 55000.00, LG
+PROD-004, Laptop, 75000.00, Dell
+PROD-005, Smartphone, 30000.00, OnePlus
+PROD-006, Tablet, 25000.00, Apple
+PROD-007, Smart TV, 65000.00, Sony
+PROD-008, Air Conditioner, 48000.00, Daikin
+PROD-009, Microwave Oven, 15000.00, IFB
+PROD-010, Mixer Grinder, 5000.00, Philips
+PROD-011, Vacuum Cleaner, 12000.00, Dyson
+PROD-012, Water Purifier, 18000.00, Kent
+PROD-013, Electric Kettle, 2500.00, Prestige
+PROD-014, Induction Stove, 3500.00, Bajaj
+PROD-015, Ceiling Fan, 3000.00, Usha
+PROD-016, Air Fryer, 9000.00, Philips
+PROD-017, Coffee Maker, 7000.00, Morphy Richards
+PROD-018, Blender, 4500.00, Panasonic
+PROD-019, Toaster, 2000.00, Pigeon
+PROD-020, Iron Box, 1800.00, Bajaj
+PROD-021, Gaming Console, 50000.00, Sony
+PROD-022, Headphones, 8000.00, Bose
+PROD-023, Bluetooth Speaker, 6000.00, JBL
+PROD-024, Smart Watch, 12000.00, Apple
+PROD-025, Fitness Band, 3000.00, Xiaomi
+PROD-026, DSLR Camera, 85000.00, Nikon
+PROD-027, Printer, 10000.00, HP
+PROD-028, Scanner, 8000.00, Canon
+PROD-029, Router, 4000.00, TP-Link
+PROD-030, External Hard Drive, 7000.00, Seagate
+PROD-031, Power Bank, 2500.00, Anker
+PROD-032, USB Flash Drive, 1200.00, SanDisk
+PROD-033, Monitor, 15000.00, LG
+PROD-034, Keyboard, 1500.00, Logitech
+PROD-035, Mouse, 1000.00, HP
+PROD-036, Office Chair, 9000.00, Featherlite
+PROD-037, Study Table, 12000.00, IKEA
+PROD-038, Bed Mattress, 20000.00, Sleepwell
+PROD-039, Wardrobe, 35000.00, Godrej
+PROD-040, Sofa Set, 60000.00, Urban Ladder
+PROD-041, Dining Table, 40000.00, Pepperfry
+PROD-042, Bookshelf, 8000.00, IKEA
+PROD-043, Wall Clock, 1500.00, Ajanta
+PROD-044, Table Lamp, 2000.00, Philips
+PROD-045, LED Bulb, 300.00, Syska
+PROD-046, Extension Board, 1200.00, Anchor
+PROD-047, Electric Drill, 5000.00, Bosch
+PROD-048, Tool Kit, 4000.00, Stanley
+PROD-049, Lawn Mower, 15000.00, Black+Decker
+PROD-050, Pressure Washer, 18000.00, Karcher
+PROD-051, Bicycle, 12000.00, Hero
+PROD-052, Treadmill, 35000.00, PowerMax
+PROD-053, Dumbbells Set, 5000.00, Decathlon
+PROD-054, Yoga Mat, 1500.00, Reebok
+PROD-055, Cricket Bat, 3000.00, SG
+PROD-056, Football, 2000.00, Adidas
+PROD-057, Basketball, 1800.00, Nike
+PROD-058, Badminton Racket, 3500.00, Yonex
+PROD-059, Tennis Racket, 6000.00, Wilson
+PROD-060, Helmet, 2500.00, Vega
+PROD-061, Backpack, 3000.00, Wildcraft
+PROD-062, Travel Suitcase, 7000.00, VIP
+PROD-063, Sunglasses, 2500.00, Ray-Ban
+PROD-064, Wrist Watch, 8000.00, Titan
+PROD-065, Shoes, 5000.00, Puma
+PROD-066, Sandals, 2000.00, Bata
+PROD-067, Jacket, 6000.00, Woodland
+PROD-068, T-Shirt, 1500.00, Levi's
+PROD-069, Jeans, 3000.00, Wrangler
+PROD-070, Shirt, 2500.00, Arrow
+PROD-071, Perfume, 7000.00, Gucci
+PROD-072, Deodorant, 500.00, Nivea
+PROD-073, Shampoo, 800.00, L'Oreal
+PROD-074, Conditioner, 900.00, Dove
+PROD-075, Face Wash, 400.00, Himalaya
+PROD-076, Moisturizer, 600.00, Pond's
+PROD-077, Sunscreen, 700.00, Neutrogena
+PROD-078, Toothpaste, 200.00, Colgate
+PROD-079, Toothbrush, 150.00, Oral-B
+PROD-080, Razor, 500.00, Gillette
+PROD-081, Trimmer, 2500.00, Philips
+PROD-082, Hair Dryer, 2000.00, Panasonic
+PROD-083, Electric Shaver, 3500.00, Braun
+PROD-084, Baby Stroller, 12000.00, Chicco
+PROD-085, Baby Monitor, 8000.00, Motorola
+PROD-086, Toy Car, 1500.00, Hot Wheels
+PROD-087, Board Game, 2000.00, Hasbro
+PROD-088, Puzzle Set, 1000.00, Funskool
+PROD-089, Notebook, 100.00, Classmate
+PROD-090, Pen Set, 500.00, Parker
+PROD-091, Marker Set, 300.00, Camlin
+PROD-092, Stapler, 200.00, Kangaro
+PROD-093, Paper Ream, 400.00, JK Paper
+PROD-094, Printer Ink, 1500.00, HP
+PROD-095, Calculator, 1200.00, Casio
+PROD-096, Whiteboard, 2500.00, Reynolds
+PROD-097, Office Desk, 15000.00, Godrej
+PROD-098, Filing Cabinet, 10000.00, Godrej
+PROD-099, CCTV Camera, 8000.00, Hikvision
+PROD-100, Door Lock, 3500.00, Godrej
